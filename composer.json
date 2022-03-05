@@ -1,0 +1,21 @@
+{
+  "name": "tcieslar/event-sourcing",
+  "type": "library",
+  "description": "Interfaces for event sourcing tools.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tomasz Cieślar",
+      "email": "tomaszcieslar@interia.pl"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "symfony/uid": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tcieslar\\EventSourcing\\": "src"
+    }
+  }
+}

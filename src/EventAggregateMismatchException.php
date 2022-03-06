@@ -7,9 +7,9 @@ use Throwable;
 
 class EventAggregateMismatchException extends Exception
 {
-    public readonly EventInterface $event;
+    public readonly Event $event;
 
-    public function __construct(Throwable $throwable, EventInterface $event)
+    public function __construct(Throwable $throwable, Event $event)
     {
         parent::__construct('Event is no supported, or aggregate type mismatch.', 0, $throwable);
         $this->event = $event;

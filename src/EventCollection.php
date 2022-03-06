@@ -22,7 +22,7 @@ class EventCollection implements \Countable, \Iterator
 
     }
 
-    public function add(EventInterface $event): void
+    public function add(Event $event): void
     {
         $this->values[] = $event;
     }

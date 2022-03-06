@@ -13,7 +13,7 @@ interface Aggregate
     /**
      * @throws EventAggregateMismatchException
      */
-    public function reply(EventInterface $event): void;
+    public function reply(Event $event): void;
 
     /**
      * @throws EventAggregateMismatchException

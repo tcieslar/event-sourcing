@@ -4,7 +4,7 @@ namespace Tcieslar\EventSourcing;
 
 use DateTimeImmutable;
 
-interface EventInterface
+interface Event
 {
     public function getEventId(): Uuid;
 
